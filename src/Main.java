@@ -32,6 +32,14 @@ public class Main {
         System.out.printf("Значение переменной" + l );
         System.out.printf("Значение переменной" + m );
 
+        System.out.printf("Задача 3");
+        byte Lyudmilasclass =  23;
+        byte Annasclass = 27;
+        byte Ekaterinasclass = 30;
+        int Threeclasses = Lyudmilasclass + Annasclass + Ekaterinasclass;
+        short Paperforthreeclasses = 480;
+        int Sheetforastdent = Paperforthreeclasses /  Threeclasses;
+        System.out.printf ("На каждого ученика рассчитано" + Sheetforastdent + "листов бумаги");
 
     }
     }
