@@ -39,7 +39,27 @@ public class Main {
         int Threeclasses = Lyudmilasclass + Annasclass + Ekaterinasclass;
         short Paperforthreeclasses = 480;
         int Sheetforastdent = Paperforthreeclasses /  Threeclasses;
-        System.out.printf ("На каждого ученика рассчитано" + Sheetforastdent + "листов бумаги");
+        System.out.printf("На каждого ученика рассчитано" + Sheetforastdent + "листов бумаги");
+
+        System.out.printf("Задача 4");
+        byte twominutes = 2;
+        byte bottlesintwominutes = 16;
+        int  bottleperminute = bottlesintwominutes / twominutes;
+        byte twentyminutes = 20;
+        byte sixtyminutesinonehour = 60;
+        byte therearetwentyfourhoursinoneday = 24;
+        short mintsinoneday = (short) (sixtyminutesinonehour * therearetwentyfourhoursinoneday);
+        int mintsinthosedays = (mintsinoneday + mintsinoneday + mintsinoneday);
+        byte daysinamonth   = 30;
+        int minutespermonth = mintsinoneday * daysinamonth ;
+        short in20minutesbottles = (short) (twentyminutes * bottleperminute);
+        short per1daybottles = (short) (mintsinoneday * bottleperminute);
+        int  per3daybottles = (mintsinthosedays *  bottleperminute);
+        int per30daybottles = (minutespermonth *  bottleperminute);
+        System.out.printf("За 20 минут машина произвела" + in20minutesbottles + "штук бутылок");
+        System.out.printf("За 1 день машина произвела" + per1daybottles + "штук бутылок");
+        System.out.printf("За 3 дня машина произвела" + per3daybottles + "штук бутылок");
+        System.out.printf("За 30  дней машина произвела" + per30daybottles + "штук бутылок");
 
     }
-    }
+}
