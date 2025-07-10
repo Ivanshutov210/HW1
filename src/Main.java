@@ -16,5 +16,22 @@ public class Main {
         System.out.printf("Значение переменной" + e );
         System.out.printf("Значение переменной" + f );
 
+        System.out.printf("Задача 2");
+        float g = 27.12f;
+        long  h = 987_678_965_549L;
+        double i = 2.786;
+        short j = 569;
+        short k = -159;
+        short l = 27897;
+        byte m = 67;
+        System.out.printf("Значение переменной" + g );
+        System.out.printf("Значение переменной" + h );
+        System.out.printf("Значение переменной" + i );
+        System.out.printf("Значение переменной" + j );
+        System.out.printf("Значение переменной" + k );
+        System.out.printf("Значение переменной" + l );
+        System.out.printf("Значение переменной" + m );
+
+
     }
     }
