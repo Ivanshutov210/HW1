@@ -70,7 +70,14 @@ public class Main {
         int brown = Totaclasses * Brownpaintforoneclass;
         System.out.printf("В школе, где" + Totaclasses + "классов, нужно" +  white + "банок белой краски и" + brown + "банок коричневой краски");
 
-
+        System.out.printf("Задача 6");
+        short Bananas = 5 * 80;
+        short milk = 105 * 2;
+        short iseCream = 100 * 2;
+        short eggs = 70 * 4;
+        int grams = Bananas + milk + iseCream +  eggs;
+        float Kg = grams / 1000f;
+        System.out.printf("Вес завтрака состовляет" + grams + "грам и" + Kg + "килограм");
 
     }
 }
