@@ -61,5 +61,16 @@ public class Main {
         System.out.printf("За 3 дня машина произвела" + per3daybottles + "штук бутылок");
         System.out.printf("За 30  дней машина произвела" + per30daybottles + "штук бутылок");
 
+        System.out.printf("Задача 5");
+        byte Allthepaint = 120;
+        byte Whitepaintforoneclass = 2;
+        byte Brownpaintforoneclass = 4;
+        int Totaclasses = Allthepaint /(Brownpaintforoneclass + Whitepaintforoneclass);
+        int white = Totaclasses *  Whitepaintforoneclass;
+        int brown = Totaclasses * Brownpaintforoneclass;
+        System.out.printf("В школе, где" + Totaclasses + "классов, нужно" +  white + "банок белой краски и" + brown + "банок коричневой краски");
+
+
+
     }
 }
