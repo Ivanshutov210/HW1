@@ -79,5 +79,16 @@ public class Main {
         float Kg = grams / 1000f;
         System.out.printf("Вес завтрака состовляет" + grams + "грам и" + Kg + "килограм");
 
+        System.out.printf("Задача 7");
+        short loseagram = 7 * 1000;
+        short firstresetgram = 250;
+        short secondresetgram = 500;
+        byte lose250aday = (byte)(loseagram / firstresetgram);
+        byte lose500aday =(byte) (loseagram / secondresetgram);
+        System.out.printf("количесво дней для похудения при потере 250 грамм в день"+ lose250aday);
+        System.out.printf("количесво дней для похудения при потере 500 грамм в день"+ lose500aday);
+        int average = (lose500aday + lose250aday) / 2;
+        System.out.printf("Среднее колличество дней для похудения" + average);
+
     }
 }
